@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pumu Live Soccer</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- LiveScore Widget CSS -->
+    <link rel="stylesheet" href="https://ls.soccersapi.com/widget/res/w_default/widget.css">
+</head>
+<body>
+    <div class="container">
+        <header class="bg-dark text-white text-center mb-4">
+            <h1><strong>Pumu Live Soccer</strong></h1>
+        </header>
+        <div class="text-center mb-4">
+            <button class="btn btn-success btn-lg" onclick="betNow()">Bet Now</button>
+        </div>
+        <!-- LIVESCORE WIDGET SOCCERSAPI.COM -->
+        <div id="ls-widget" data-w="w_default" class="livescore-widget mx-auto"></div>
+        <script type="text/javascript" src="https://ls.soccersapi.com/widget/res/w_default/widget.js"></script>
+        <!-- LIVESCORE WIDGET SOCCERSAPI.COM -->
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <footer class="bg-primary text-white text-center py-3 mt-4">
+        &copy; 2024 Pumu Live Soccer. All rights reserved.
+    </footer>
+</body>
+</html>
